@@ -1,3 +1,4 @@
+import argparse
 import csv
 import random
 from datetime import datetime, timedelta
@@ -5,7 +6,14 @@ from typing import Dict, List, Tuple
 
 from pipeline_utils import DATA_DIR, ensure_data_dir
 
-random.seed(42)
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Generate synthetic e-commerce datasets.")
+    parser.add_argument("--customers", type=int, default=150, help="Number of customers to generate.")
+    parser.add_argument("--products", type=int, default=200, help="Number of products to generate.")
+    parser.add_argument("--orders", type=int, default=300, help="Number of orders to generate.")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility.")
+    return parser.parse_args()
 
 
 def random_date_within_days(days_back: int = 365) -> str:
@@ -154,11 +162,15 @@ def write_csv(filename: str, rows: List[Dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
-def generate_and_save_data() -> Dict[str, List[Dict[str, str]]]:
+def generate_and_save_data(
+    customer_count: int = 150,
+    product_count: int = 200,
+    order_count: int = 300,
+) -> Dict[str, List[Dict[str, str]]]:
     ensure_data_dir()
-    customers = generate_customers()
-    products = generate_products()
-    orders, order_items, payments = generate_orders(customers, products)
+    customers = generate_customers(count=customer_count)
+    products = generate_products(count=product_count)
+    orders, order_items, payments = generate_orders(customers, products, count=order_count)
 
     datasets = {
         "customers": customers,
@@ -175,7 +187,13 @@ def generate_and_save_data() -> Dict[str, List[Dict[str, str]]]:
 
 
 if __name__ == "__main__":
-    generated = generate_and_save_data()
+    args = parse_args()
+    random.seed(args.seed)
+    generated = generate_and_save_data(
+        customer_count=args.customers,
+        product_count=args.products,
+        order_count=args.orders,
+    )
     for name, rows in generated.items():
-        print(f"{name}: wrote {len(rows)} rows to {DATA_DIR / f'{name}.csv'}")
+        print(f"{name}: wrote {len(rows)} rows to {DATA_DIR / f'{name}.csv'} (seed={args.seed})")
 

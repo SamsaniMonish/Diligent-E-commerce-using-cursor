@@ -10,3 +10,5 @@
 
 "Write an SQL query that joins all generated e-commerce data tables to output a combined report showing customer details, order information, purchased products, item quantities, and related payment amounts."
 
+These prompts are automated inside `generate_data.py`, `ingest_data.py`, `report_data.py`, and orchestrated via `run_prompts.py`. Use those scripts to execute the workflow without altering the prompt wording.
+

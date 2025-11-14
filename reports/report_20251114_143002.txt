@@ -19,3 +19,5 @@ Customer | Order | Product | Amount
 2025-11-10 | ORD00048 | Morgan Williams (CUST0016) [Chicago, CO] | Yoga Pants 199 (PROD0081) x2 @ $398.40 -> $796.80 | Payment $4013.41 via apple_pay (processing)
 2025-11-10 | ORD00048 | Morgan Williams (CUST0016) [Chicago, CO] | Yoga Pants 361 (PROD0118) x5 @ $176.43 -> $882.15 | Payment $4013.41 via apple_pay (processing)
 2025-11-10 | ORD00048 | Morgan Williams (CUST0016) [Chicago, CO] | Yoga Pants 476 (PROD0088) x5 @ $48.74 -> $243.70 | Payment $4013.41 via apple_pay (processing)
+
+Generated via `report_data.py --limit 20 --format txt` (run at 2025-11-14T14:30:02).

@@ -4,6 +4,7 @@ BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 REPORTS_DIR = BASE_DIR / "reports"
 DB_PATH = BASE_DIR / "ecom.db"
+DEFAULT_REPORT_LIMIT = 20
 
 
 def ensure_data_dir() -> None:
@@ -12,4 +13,10 @@ def ensure_data_dir() -> None:
 
 def ensure_reports_dir() -> None:
     REPORTS_DIR.mkdir(exist_ok=True)
+
+
+def ensure_base_dirs() -> None:
+    """Convenience helper to create any directories the pipeline needs."""
+    ensure_data_dir()
+    ensure_reports_dir()
 

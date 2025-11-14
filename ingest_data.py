@@ -1,5 +1,8 @@
+import argparse
 import csv
 import sqlite3
+from pathlib import Path
+from typing import Dict
 
 from pipeline_utils import DATA_DIR, DB_PATH
 
@@ -94,8 +97,8 @@ def load_csv_into_table(cursor: sqlite3.Cursor, filename: str, table: str) -> No
             cursor.execute(f"INSERT INTO {table} ({column_list}) VALUES ({placeholders});", values)
 
 
-def load_data_into_sqlite() -> None:
-    with sqlite3.connect(DB_PATH) as conn:
+def load_data_into_sqlite(db_path: Path = DB_PATH, verbose: bool = True) -> Dict[str, int]:
+    with sqlite3.connect(db_path) as conn:
         conn.execute("PRAGMA foreign_keys = ON;")
         cursor = conn.cursor()
         reset_database(cursor)
@@ -109,8 +112,25 @@ def load_data_into_sqlite() -> None:
         load_csv_into_table(cursor, "payments.csv", "payments")
         conn.commit()
 
+        counts = {}
+        for table in ["customers", "products", "orders", "order_items", "payments"]:
+            cursor.execute(f"SELECT COUNT(*) FROM {table};")
+            (row_count,) = cursor.fetchone()
+            counts[table] = row_count
+            if verbose:
+                print(f"{table}: {row_count} rows loaded")
+        return counts
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Load generated CSVs into SQLite.")
+    parser.add_argument("--db-path", type=Path, default=DB_PATH, help="Path to SQLite database file.")
+    parser.add_argument("--quiet", action="store_true", help="Suppress per-table row counts.")
+    return parser.parse_args()
+
 
 if __name__ == "__main__":
-    load_data_into_sqlite()
-    print(f"Loaded CSV data into {DB_PATH}")
+    args = parse_args()
+    counts = load_data_into_sqlite(db_path=args.db_path, verbose=not args.quiet)
+    print(f"Loaded CSV data into {args.db_path} ({sum(counts.values())} total rows)")
 

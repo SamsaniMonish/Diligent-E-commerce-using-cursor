@@ -1,0 +1,11 @@
+customer_id,customer_name,city,state,order_id,order_date,status,product_id,product_name,quantity,unit_price,line_total,payment_amount,payment_method
+CUST0080,Dakota Martinez,Miami,AZ,ORD00199,2025-11-12,delivered,PROD0146,Shampoo 415,1,199.78,199.78,1211.02,apple_pay
+CUST0080,Dakota Martinez,Miami,AZ,ORD00199,2025-11-12,delivered,PROD0045,Coffee Maker 798,2,217.14,434.28,1211.02,apple_pay
+CUST0080,Dakota Martinez,Miami,AZ,ORD00199,2025-11-12,delivered,PROD0052,Blender 806,1,259.18,259.18,1211.02,apple_pay
+CUST0080,Dakota Martinez,Miami,AZ,ORD00199,2025-11-12,delivered,PROD0064,Smart Lamp 192,1,152.29,152.29,1211.02,apple_pay
+CUST0080,Dakota Martinez,Miami,AZ,ORD00199,2025-11-12,delivered,PROD0117,Baseball Cap 197,1,165.49,165.49,1211.02,apple_pay
+CUST0034,Riley Jones,Phoenix,MA,ORD00245,2025-11-12,delivered,PROD0139,Perfume 895,3,131.53,394.59,1841.85,google_pay
+CUST0034,Riley Jones,Phoenix,MA,ORD00245,2025-11-12,delivered,PROD0182,Hiking Backpack 548,1,25.26,25.26,1841.85,google_pay
+CUST0034,Riley Jones,Phoenix,MA,ORD00245,2025-11-12,delivered,PROD0195,Water Bottle 533,3,46.44,139.32,1841.85,google_pay
+CUST0034,Riley Jones,Phoenix,MA,ORD00245,2025-11-12,delivered,PROD0144,Serum 453,4,304.42,1217.68,1841.85,google_pay
+CUST0034,Riley Jones,Phoenix,MA,ORD00245,2025-11-12,delivered,PROD0150,Moisturizer 540,5,13.0,65.0,1841.85,google_pay
