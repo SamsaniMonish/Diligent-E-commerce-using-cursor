@@ -1,0 +1,12 @@
+## Prompt 1: Build five synthetic e-commerce data files
+
+"Generate five sets of random but realistic synthetic data, each representing a different aspect of an e-commerce system (such as customers, products, orders, items within orders, and payments). Each set should have sensible fields, reflect logical primary and foreign key relationships, and contain at least set of 100 plausible records per set."
+
+## Prompt 2: Load the CSVs into SQLite
+
+"Take the five sets of synthetic e-commerce data generated in memory and load each as a table into a SQLite database called 'ecom.db'. Ensure that the generated key relationships are enforced as table constraints."
+
+## Prompt 3: Write a multi-table SQL report
+
+"Write an SQL query that joins all generated e-commerce data tables to output a combined report showing customer details, order information, purchased products, item quantities, and related payment amounts."
+

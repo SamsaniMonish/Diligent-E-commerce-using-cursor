@@ -1,0 +1,201 @@
+product_id,name,category,price,inventory_count
+PROD0001,Bluetooth Speaker 521,Electronics,344.51,387
+PROD0002,Tablet 933,Electronics,122.39,460
+PROD0003,Gaming Mouse 422,Electronics,24.3,140
+PROD0004,Smart Watch 513,Electronics,136.07,841
+PROD0005,Gaming Mouse 773,Electronics,331.71,51
+PROD0006,Gaming Mouse 292,Electronics,190.16,105
+PROD0007,Gaming Mouse 610,Electronics,151.08,824
+PROD0008,Tablet 373,Electronics,306.39,258
+PROD0009,Gaming Mouse 548,Electronics,61.09,344
+PROD0010,Tablet 723,Electronics,57.35,695
+PROD0011,Wireless Earbuds 664,Electronics,286.81,368
+PROD0012,Bluetooth Speaker 330,Electronics,225.37,145
+PROD0013,Bluetooth Speaker 763,Electronics,189.95,170
+PROD0014,Wireless Earbuds 398,Electronics,204.36,783
+PROD0015,Gaming Mouse 954,Electronics,285.1,475
+PROD0016,Tablet 567,Electronics,392.29,299
+PROD0017,Gaming Mouse 713,Electronics,66.4,245
+PROD0018,Gaming Mouse 984,Electronics,301.04,189
+PROD0019,Bluetooth Speaker 974,Electronics,117.73,858
+PROD0020,Tablet 619,Electronics,142.54,856
+PROD0021,Smart Watch 843,Electronics,330.0,339
+PROD0022,Smart Watch 775,Electronics,336.61,643
+PROD0023,Tablet 651,Electronics,347.44,507
+PROD0024,Tablet 881,Electronics,144.59,615
+PROD0025,Gaming Mouse 990,Electronics,157.1,379
+PROD0026,Wireless Earbuds 685,Electronics,392.49,294
+PROD0027,Tablet 520,Electronics,101.08,844
+PROD0028,Bluetooth Speaker 822,Electronics,134.08,534
+PROD0029,Tablet 911,Electronics,160.56,729
+PROD0030,Wireless Earbuds 229,Electronics,203.17,87
+PROD0031,Gaming Mouse 990,Electronics,386.48,389
+PROD0032,Bluetooth Speaker 202,Electronics,350.92,500
+PROD0033,Gaming Mouse 839,Electronics,365.06,65
+PROD0034,Wireless Earbuds 258,Electronics,169.88,720
+PROD0035,Bluetooth Speaker 446,Electronics,193.09,321
+PROD0036,Gaming Mouse 182,Electronics,280.14,715
+PROD0037,Smart Watch 646,Electronics,342.4,929
+PROD0038,Tablet 835,Electronics,382.1,691
+PROD0039,Tablet 732,Electronics,350.22,86
+PROD0040,Bluetooth Speaker 394,Electronics,101.55,750
+PROD0041,Coffee Maker 200,Home,301.23,494
+PROD0042,Air Purifier 406,Home,183.02,760
+PROD0043,Air Purifier 157,Home,27.93,865
+PROD0044,Blender 249,Home,149.79,491
+PROD0045,Coffee Maker 798,Home,217.14,629
+PROD0046,Coffee Maker 724,Home,76.28,130
+PROD0047,Vacuum Cleaner 609,Home,251.68,296
+PROD0048,Smart Lamp 753,Home,65.81,522
+PROD0049,Blender 109,Home,189.22,732
+PROD0050,Vacuum Cleaner 659,Home,361.46,743
+PROD0051,Coffee Maker 701,Home,38.8,403
+PROD0052,Blender 806,Home,259.18,484
+PROD0053,Blender 303,Home,188.16,359
+PROD0054,Vacuum Cleaner 342,Home,342.79,159
+PROD0055,Vacuum Cleaner 402,Home,233.04,638
+PROD0056,Blender 774,Home,18.55,899
+PROD0057,Vacuum Cleaner 985,Home,117.04,629
+PROD0058,Air Purifier 608,Home,365.13,813
+PROD0059,Blender 721,Home,312.53,285
+PROD0060,Blender 735,Home,95.4,244
+PROD0061,Blender 885,Home,274.32,788
+PROD0062,Coffee Maker 742,Home,255.01,975
+PROD0063,Air Purifier 134,Home,130.47,501
+PROD0064,Smart Lamp 192,Home,152.29,184
+PROD0065,Blender 279,Home,137.41,475
+PROD0066,Coffee Maker 997,Home,61.53,602
+PROD0067,Blender 379,Home,217.02,985
+PROD0068,Coffee Maker 593,Home,110.21,894
+PROD0069,Blender 923,Home,301.15,396
+PROD0070,Air Purifier 244,Home,192.64,127
+PROD0071,Coffee Maker 790,Home,345.44,791
+PROD0072,Vacuum Cleaner 670,Home,387.23,873
+PROD0073,Blender 114,Home,45.21,454
+PROD0074,Blender 477,Home,219.25,515
+PROD0075,Blender 753,Home,237.97,892
+PROD0076,Blender 582,Home,52.24,289
+PROD0077,Air Purifier 435,Home,251.61,624
+PROD0078,Smart Lamp 750,Home,96.32,114
+PROD0079,Vacuum Cleaner 764,Home,364.65,359
+PROD0080,Vacuum Cleaner 138,Home,55.49,96
+PROD0081,Yoga Pants 199,Apparel,398.4,168
+PROD0082,Denim Jacket 497,Apparel,356.02,188
+PROD0083,Baseball Cap 813,Apparel,154.68,810
+PROD0084,Wool Scarf 844,Apparel,173.45,810
+PROD0085,Denim Jacket 201,Apparel,355.3,720
+PROD0086,Baseball Cap 133,Apparel,250.09,336
+PROD0087,Yoga Pants 341,Apparel,94.73,505
+PROD0088,Yoga Pants 476,Apparel,48.74,752
+PROD0089,Wool Scarf 467,Apparel,361.65,710
+PROD0090,Running Shoes 225,Apparel,165.26,244
+PROD0091,Baseball Cap 757,Apparel,45.74,267
+PROD0092,Wool Scarf 905,Apparel,388.72,101
+PROD0093,Yoga Pants 905,Apparel,104.98,178
+PROD0094,Wool Scarf 883,Apparel,90.02,899
+PROD0095,Wool Scarf 932,Apparel,90.78,271
+PROD0096,Denim Jacket 907,Apparel,138.13,201
+PROD0097,Wool Scarf 248,Apparel,11.1,929
+PROD0098,Denim Jacket 278,Apparel,220.67,867
+PROD0099,Running Shoes 234,Apparel,267.8,76
+PROD0100,Running Shoes 343,Apparel,149.7,857
+PROD0101,Wool Scarf 371,Apparel,136.26,228
+PROD0102,Running Shoes 638,Apparel,59.43,481
+PROD0103,Running Shoes 559,Apparel,300.8,537
+PROD0104,Yoga Pants 562,Apparel,210.15,161
+PROD0105,Wool Scarf 144,Apparel,96.39,679
+PROD0106,Wool Scarf 131,Apparel,127.63,708
+PROD0107,Running Shoes 511,Apparel,399.44,917
+PROD0108,Baseball Cap 829,Apparel,277.57,552
+PROD0109,Baseball Cap 429,Apparel,38.65,132
+PROD0110,Wool Scarf 381,Apparel,67.84,179
+PROD0111,Wool Scarf 829,Apparel,256.89,611
+PROD0112,Yoga Pants 643,Apparel,158.54,661
+PROD0113,Yoga Pants 540,Apparel,186.94,669
+PROD0114,Running Shoes 973,Apparel,319.3,167
+PROD0115,Wool Scarf 540,Apparel,291.12,270
+PROD0116,Baseball Cap 447,Apparel,356.35,473
+PROD0117,Baseball Cap 197,Apparel,165.49,797
+PROD0118,Yoga Pants 361,Apparel,176.43,731
+PROD0119,Yoga Pants 585,Apparel,381.89,753
+PROD0120,Running Shoes 195,Apparel,45.57,137
+PROD0121,Hair Dryer 481,Beauty,47.65,806
+PROD0122,Serum 675,Beauty,226.97,650
+PROD0123,Shampoo 520,Beauty,138.55,175
+PROD0124,Perfume 533,Beauty,350.7,818
+PROD0125,Moisturizer 419,Beauty,387.67,664
+PROD0126,Perfume 317,Beauty,50.39,569
+PROD0127,Serum 967,Beauty,266.12,279
+PROD0128,Moisturizer 476,Beauty,146.53,619
+PROD0129,Moisturizer 331,Beauty,307.41,637
+PROD0130,Hair Dryer 938,Beauty,339.6,835
+PROD0131,Shampoo 670,Beauty,249.28,708
+PROD0132,Moisturizer 949,Beauty,247.5,723
+PROD0133,Perfume 819,Beauty,21.28,329
+PROD0134,Perfume 106,Beauty,369.39,409
+PROD0135,Serum 773,Beauty,349.24,629
+PROD0136,Hair Dryer 748,Beauty,37.13,808
+PROD0137,Moisturizer 320,Beauty,45.78,593
+PROD0138,Hair Dryer 261,Beauty,173.72,399
+PROD0139,Perfume 895,Beauty,131.53,382
+PROD0140,Shampoo 153,Beauty,242.52,954
+PROD0141,Serum 150,Beauty,71.38,682
+PROD0142,Moisturizer 534,Beauty,116.11,727
+PROD0143,Hair Dryer 379,Beauty,246.75,474
+PROD0144,Serum 453,Beauty,304.42,166
+PROD0145,Hair Dryer 794,Beauty,53.24,744
+PROD0146,Shampoo 415,Beauty,199.78,733
+PROD0147,Moisturizer 156,Beauty,95.99,663
+PROD0148,Moisturizer 885,Beauty,89.72,266
+PROD0149,Serum 435,Beauty,308.01,346
+PROD0150,Moisturizer 540,Beauty,13.0,814
+PROD0151,Serum 820,Beauty,60.37,595
+PROD0152,Serum 784,Beauty,205.09,903
+PROD0153,Perfume 859,Beauty,38.1,932
+PROD0154,Moisturizer 179,Beauty,180.12,520
+PROD0155,Perfume 514,Beauty,234.54,637
+PROD0156,Hair Dryer 121,Beauty,122.9,464
+PROD0157,Perfume 571,Beauty,77.02,682
+PROD0158,Perfume 208,Beauty,44.36,914
+PROD0159,Serum 636,Beauty,179.9,460
+PROD0160,Moisturizer 863,Beauty,164.34,367
+PROD0161,Travel Mug 272,Outdoors,96.4,847
+PROD0162,Camping Tent 643,Outdoors,209.08,166
+PROD0163,Water Bottle 457,Outdoors,85.61,844
+PROD0164,Travel Mug 760,Outdoors,293.67,888
+PROD0165,Hiking Backpack 362,Outdoors,102.13,199
+PROD0166,Hiking Backpack 878,Outdoors,77.65,206
+PROD0167,Camping Tent 743,Outdoors,79.08,841
+PROD0168,LED Lantern 878,Outdoors,190.93,627
+PROD0169,Water Bottle 678,Outdoors,185.06,996
+PROD0170,Water Bottle 423,Outdoors,136.04,692
+PROD0171,Hiking Backpack 552,Outdoors,181.5,530
+PROD0172,Travel Mug 157,Outdoors,320.56,655
+PROD0173,Travel Mug 572,Outdoors,207.85,367
+PROD0174,LED Lantern 951,Outdoors,24.66,427
+PROD0175,Travel Mug 975,Outdoors,39.92,934
+PROD0176,Camping Tent 493,Outdoors,249.84,569
+PROD0177,LED Lantern 856,Outdoors,236.32,860
+PROD0178,Camping Tent 685,Outdoors,185.39,879
+PROD0179,Hiking Backpack 613,Outdoors,135.39,537
+PROD0180,Hiking Backpack 205,Outdoors,383.5,511
+PROD0181,Travel Mug 616,Outdoors,393.12,136
+PROD0182,Hiking Backpack 548,Outdoors,25.26,774
+PROD0183,LED Lantern 262,Outdoors,214.38,674
+PROD0184,Travel Mug 496,Outdoors,155.4,339
+PROD0185,LED Lantern 712,Outdoors,312.03,745
+PROD0186,Camping Tent 442,Outdoors,317.79,712
+PROD0187,Camping Tent 794,Outdoors,138.57,621
+PROD0188,LED Lantern 972,Outdoors,120.81,791
+PROD0189,Water Bottle 183,Outdoors,350.57,391
+PROD0190,Water Bottle 458,Outdoors,268.8,988
+PROD0191,Travel Mug 778,Outdoors,387.39,765
+PROD0192,LED Lantern 186,Outdoors,60.28,775
+PROD0193,Travel Mug 910,Outdoors,227.97,708
+PROD0194,Travel Mug 819,Outdoors,327.13,736
+PROD0195,Water Bottle 533,Outdoors,46.44,736
+PROD0196,Water Bottle 416,Outdoors,151.1,421
+PROD0197,Hiking Backpack 884,Outdoors,380.95,399
+PROD0198,LED Lantern 258,Outdoors,84.87,190
+PROD0199,Camping Tent 203,Outdoors,125.35,857
+PROD0200,Water Bottle 856,Outdoors,310.63,905
